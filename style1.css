@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url(bb.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    
+    color: rgb(238, 8, 8);
+    position: absolute;
+    top: 40%;
+    left: 70%;
+}
+.container h1{
+    display: inline-block;
+    font-size: 40px;
+    border-bottom: 5px solid rgb(148, 148, 235);
+    margin-bottom: 20px;
+    padding: 13px 0px;
+}
+.box{
+    border-bottom: 2px solid yellowgreen;
+    width: 100%; 
+    margin: 13px 0px;
+}
+.box input{
+    background: none;
+   width: 90%;
+   
+   padding: 12px;
+   font-size: 23px;
+   border: none;
+   outline: none;
+   color: red; 
+
+}
+.box i{
+    width: 20px;
+    
+    text-align: center;
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0px;
+    padding: 10px 21px;
+    border-radius: 20px;
+    border: 2px solid greenyellow;
+    font-size: 18px;
+    font-weight: bold;
+}
+.btn:hover{
+    color: violet;
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0px;
+    padding: 10px 21px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    background: rgb(142, 236, 124);
+    font-weight: bold;
+}
